@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>الصفحة الرئيسية - بورتفوليو محمد حسن</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+      <style>
+        /* Force override */
+        .header-toggle {
+          right: 30px !important;
+        }
+      </style>
+
+      <style>
+        .header {
+          right: 0;
+          left: auto;
+          text-align: right;
+        }
+          
+          :root {
+            --nav-color: #a8a9b4;
+            /* The default color of the main navmenu links */
+            --nav-hover-color: #ffffff;
+            /* Applied to main navmenu links when they are hovered over or active */
+            --nav-mobile-background-color: #040b14;
+            /* Used as the background color for mobile navigation menu */
+            --nav-dropdown-background-color: #040b14;
+            /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+            --nav-dropdown-color: #a8a9b4;
+            /* Used for navigation links of the dropdown items in the navigation menu. */
+            --nav-dropdown-hover-color: #ffffff;
+            /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+          }
+
+        .navmenu {
+          text-align: right;
+          width: 100%;
+        }
+
+        .navmenu i {
+          margin-left: 8px;
+        }
+
+        .navmenu ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+
+        .navmenu li {
+          width: 100%;
+          text-align: right;
+        }
+
+        .navmenu li a {
+          display: block;
+          text-align: right;
+        }
+
+        .header .profile-img,
+        .header .logo {
+          align-self: center;
+          text-align: center;
+          width: 100%;
+        }
+
+        .header .profile-img img {
+          display: block;
+          margin: 16 auto;
+        }
+
+        .header .logo h1 {
+          text-align: center;
+          margin-top: 10px;
+        }
+
+          @media (min-width: 992px) {
+            body.index-page {
+              padding-right: 300px; /* Space for sidebar */
+            }
+
+            .main {
+              margin: 0 !important;
+            }
+
+            .section {
+              margin: 0 !important;
+            }
+
+           .hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.header .logo {
+  margin-bottom: 10px; /* Reduce space below the name */
+}
+
+.header .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+                       /* Make it span full width */
+            padding: 16px 0;
+            margin: 0 auto;          /* Optional: helps with horizontal centering */
+          }
+
+.header .social-links {
+  margin-top: 5px;  /* Reduce space above the icons */
+}
+.header .logo {
+  margin-bottom: 5px;
+}
+
+.header .social-links {
+  margin-top: 0;
+}
+
+.hero:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 3;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hero p {
+  margin: 5px 0 0 0;
+  font-size: 26px;
+}
+
+.hero p span {
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+
+
+
+.hero .social-links a:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+
+          }
+
+
+          /* HIDE NAVMENU ON SMALL SCREENS */
+          @media (max-width: 1199px) {
+            #header {
+              right: -300px;
+              left: auto;
+              position: fixed;
+              top: 0;
+              width: 300px;
+              height: 100vh;
+              
+              transition: right 0.3s ease;
+              z-index: 9999;
+            }
+
+            body.index-page {
+              padding-right: 0 !important;
+            }
+
+            .main {
+              margin-right: 0 !important;
+            }
+
+            .section {
+              margin-right: 0 !important;
+            }
+
+            .header-toggle {
+              display: block;
+              position: fixed;
+              top: 20px;
+              right: 40px;
+              font-size: 28px;
+              color: white;
+              cursor: pointer;
+              z-index: 10000;
+            }
+          }
+
+          #header.open {
+            right: 0;
+          }
+
+          #hero {
+            margin-right: 0 !important;
+          }
+
+          .header-toggle {
+            display: block;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 28px;
+            color: white;
+            cursor: pointer;
+            z-index: 10000;
+          }
+        }
+
+      </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column align-items-end position-fixed">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/profile-img.jpeg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">محمد حسن</h1>
+    </a>
+<div class="social-links text-center">
+  <a href="https://www.facebook.com/mohammad.fetouh" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+  <a href="https://www.instagram.com/muhammad.fetouh/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+  <a href="https://www.tiktok.com/@muhammnnad?_t=ZN-8wv1uQvUD4A&_r=1" class="tiktok" target="_blank"><i class="bi bi-tiktok"></i></a>
+  <a href="https://www.linkedin.com/in/muhammad-hassan-84a700348/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+</div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>الرئيسية</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> من أنا</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> السيرة الذاتية</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> الخدمات</a></li>
+        <li class="scroll up"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>العودة للأعلى</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> تواصل معي</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div class="hero-lang-switcher">
+    <!-- English -->
+    <a href="/moportfolio/en/" class="lang-icon" title="Switch to English">
+      <img src="https://www.flagpedia.net/data/flags/h80/gb.png" alt="English">
+      <span class="lang-text">English</span>
+    </a>
+
+    <!-- German -->
+    <a href="/moportfolio/de/" class="lang-icon" title="Wechseln Sie zu Deutsch">
+      <img src="https://www.flagpedia.net/data/flags/h80/de.png" alt="Deutsch">
+      <span class="lang-text">Deutsch</span>
+    </a>
+  </div>
+  <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background" style="position: relative;">
+
+          <img src="assets/img/home.jpeg" alt="" data-aos="fade-in">
+
+              <div class="container text-end" style=";" data-aos="fade-up" data-aos-delay="100">
+
+            <h2>محمد حسن</h2>
+            <p>أنا <span id="typed-1"></span></p>
+            <p class="mt-3">ماهر في <span id="typed-2"></span></p>
+          </div>
+
+              
+
+        </section>
+
+        <!-- Typed.js CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Typed.js Initialization -->
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            new Typed('#typed-1', {
+              strings: ["مصمم", "مطور","مبرمج" ,"مصور"],
+              typeSpeed: 100,
+              backSpeed: 50,
+              backDelay: 2000,
+              loop: true,
+              showCursor: true,
+              cursorChar: "|"
+            });
+
+            new Typed('#typed-2', {
+              strings: ["تصميم المواقع", "تطوير البرمجيات", "تطوير التطبيقات", "التصميم الجرافيكي", "تصميم الشعارات"],
+              typeSpeed: 100,
+              backSpeed: 50,
+              backDelay: 2500,
+              loop: true,
+              showCursor: true,
+              cursorChar: "|"
+            });
+          });
+        </script>
+
+        <style>
+            .hero-lang-switcher {
+              position: absolute;
+              top: 20px;
+              left: 20px;
+              z-index: 1000;
+              display: flex;
+              flex-direction: column; /* Stack vertically */
+              gap: 10px;
+            }
+
+            .lang-icon {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              padding: 5px 10px;
+              background-color: rgba(0, 0, 0, 0.5);
+              border-radius: 5px;
+              text-decoration: none;
+              transform: scale(1);
+              transition: transform 0.3s ease;
+            }
+
+            .lang-icon:hover {
+              transform: scale(1.1);
+            }
+
+            .lang-icon img {
+              width: 20px;
+              height: 14px;
+              transition: transform 0.3s ease, filter 0.3s ease;
+            }
+            
+
+            .lang-icon:hover img {
+              transform: scale(1.2);
+              filter: brightness(1.3);
+            }
+
+            .lang-text {
+              font-size: 16px;
+              font-weight: bold;
+              color: white;
+            }
+            .social-links {
+              display: flex !important;
+              justify-content: center !important;
+              align-items: center;
+              gap: 10px;
+              width: 100%;
+              direction: ltr; /* Force icons to go left-to-right even in RTL layout */
+              padding: 10px 0;
+              margin: 0 auto;
+            }
+
+            .social-links a {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            /* Fallback for small screens */
+            @media (max-width: 768px) {
+              .social-links {
+                justify-content: center !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                text-align: center;
+              }
+            }
+
+        </style>
+
+      </main>
+
+    </body>
+
+    </html>
+<!-- WhatsApp Floating Button with Heartbeat Animation -->
+<a href="https://wa.me/491772718272" class="whatsapp-wrapper" target="_blank" title="Chat with me on WhatsApp">
+
+  <div class="whatsapp-icon heartbeat">
+    <i class="bi bi-whatsapp"></i>
+  </div>
+</a>
+<style>
+    .whatsapp-wrapper {
+      position: fixed;
+      bottom: 65px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+      text-decoration: none;
+    }
+
+    .whatsapp-bubble {
+      background-color: #25d366;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      white-space: nowrap;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+      border: 2px solid white;
+    }
+
+    .whatsapp-icon {
+      background-color: #25d366;
+      color: white;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+    }
+
+
+    .whatsapp-wrapper:hover .whatsapp-bubble,
+    .whatsapp-wrapper:hover .whatsapp-icon {
+      background-color: #1ebe5d;
+    }
+
+    /* Heartbeat Animation */
+    .heartbeat {
+      animation: heartbeat 3.5s infinite;
+    }
+
+    @keyframes heartbeat {
+      0% {
+        transform: scale(1);
+      }
+      14% {
+        transform: scale(1.3);
+      }
+      28% {
+        transform: scale(1);
+      }
+      42% {
+        transform: scale(1.3);
+      }
+      70% {
+        transform: scale(1);
+      }
+    }
+
+</style>
+
+
+<!-- About Section -->
+<section id="about" class="about section" style=" direction: rtl; text-align: right;">
+
+  <!-- Section Title -->
+  <div class="container section-title text-end" data-aos="fade-up">
+    <h2 class="text-end position-relative d-inline-block" style="display: inline-block; padding-bottom: 5px; :">من أنا</h2>
+    <p>تشمل نقاط قوتي التفكير المنطقي، والإصرار في إصلاح الأخطاء البرمجية، والقدرة على التكيف السريع مع الأدوات أو التحديات الجديدة. أستمتع بالعمل في بيئات تشجع على التعلم والإبداع والابتكار.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-4">
+        <img src="assets/img/profile-img.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 content">
+        <h2>مصمم واجهات وتجربة مستخدم وتصميم شعارات ومطور مواقع وتطبيقات.</h2>
+        <p class="fst-italic py-3">
+          أنا مبرمج مرن وسهل التعامل، أستمتع بمساعدة ودعم الآخرين. أزدهر في البيئات التعاونية وأسعى دائمًا للمساهمة بشكل إيجابي في أهداف الفريق والمشروع.
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-person"></i> <strong>العمر:</strong> <span>49</span></li>
+              <li><i class="bi bi-globe"></i> <strong>الموقع الإلكتروني:</strong> <span>https://moportfolio.github.io/.com//</span></li>
+              <li><i class="bi bi-telephone"></i> <strong>الهاتف:</strong> <span>+491772718272</span></li>
+              <li><i class="bi bi-mortarboard"></i> <strong>الدرجة العلمية:</strong> <span>ماجستير</span></li>
+              <li><i class="bi bi-geo-alt"></i> <strong>البلد:</strong> <span>ألمانيا</span></li>
+              <li><i class="bi bi-envelope"></i> <strong>البريد الإلكتروني:</strong> <span>muhannmmad@gmail.com</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills section light-background" style=" direction: rtl; text-align: right;">
+
+  <!-- Section Title -->
+  <div class="container section-title text-end" data-aos="fade-up">
+    <h2 class="text-end position-relative d-inline-block" style="display: inline-block; padding-bottom: 5px; ">المهارات</h2>
+    <p>مجموعة من المهارات التي أتمتع بها وتشمل التصميم والتطوير واستخدام أدوات متعددة</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row skills-content skills-animation">
+      <div class="col-lg-6">
+        <div class="progress">
+          <span class="skill"><span>Flutter</span> <i class="val">100%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>Figma</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="progress">
+          <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="progress">
+          <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resume" class="resume section" dir="rtl">
+  <style>
+    /* Custom RTL fixes for section title underline */
+    [dir="rtl"] .section-title {
+      position: relative;
+      padding-right: 20px; /* spacing from right edge */
+      text-align: right;
+    }
+
+  
+  </style>
+  <section id="skills" class="skills section light-background" style=" direction: rtl; text-align: right;">
+  <!-- Section Title -->
+  <div class="container section-title text-end" data-aos="fade-up">
+    <h2 class="text-end position-relative d-inline-block" style="display: inline-block; padding-bottom: 5px; : ">السيرة الذاتية</h2>
+
+    <!-- Bootstrap CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Life Story Section -->
+    <section class="container my-5">
+      <div class="row align-items-start">
+        <!-- Image on the left -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="assets/img/story.jpeg"
+                 class="img-fluid rounded-circle shadow border border-3 border-primary p-2 flip-image"
+                 alt="Muhammad Hassan"
+                 style="max-width: 250px;">
+
+          <div class="mt-2 fst-italic text-muted">محمد حسن يشارك رحلته الحياتية</div>
+        </div>
+
+        <!-- Story text -->
+        <div class="col-md-8 text-end">
+          <p>مرحباً بالجميع،</p>
+
+          <p>اسمي <strong>محمد حسن</strong>. وُلدت في <strong>19 أكتوبر 1975</strong> في مصر 🇪🇬. أنا مصري الأصل، ولكنني الآن أحمل <strong>الجنسية الألمانية</strong> 🇩🇪 وأعيش في مدينة <strong>توبنغن</strong> الجميلة.</p>
+
+          <p>على الرغم من أنني نشأت في بلد غني بالثقافة والتقاليد، إلا أنني أصبحت لاحقًا مواطنًا ألمانيًا فخورًا.</p>
+
+          <p><i class="bi bi-mortarboard-fill text-primary"></i> أحمل درجة <strong>البكالوريوس</strong> و <strong>الماجستير</strong> في اللغة الإنجليزية. بدأت مسيرتي المهنية بتدريس الإنجليزية في معهد الأزهر ببنها، مصر. عملت لسنوات عديدة كـ<strong>مدرس لغة إنجليزية للمرحلة الثانوية</strong> للطلاب من عمر 16 إلى 19 عامًا. إلى جانب التدريس، عملت أيضًا كـ<strong>مترجم</strong> في مكتب ترجمة أورابي، حيث ترجمت بين العربية والإنجليزية.</p>
+
+          <p><i class="bi bi-person-workspace text-success"></i> في السنوات الثلاث الأخيرة قبل انتقالي إلى ألمانيا، عملت كـ<strong>أستاذ جامعي</strong> في جامعة الأزهر، كلية التربية، قسم اللغة الإنجليزية. كنت أُدرس <strong>مقررات متقدمة في اللغة والمنهجية</strong> وساهمت في تطوير المناهج الأكاديمية.</p>
+
+          <p><i class="bi bi-airplane-fill text-danger"></i> في عام <strong>2016</strong>، انتقلت إلى ألمانيا. عملت في <strong>Deutsche Post</strong> كمُصنِّف وموصل بريد، ولاحقًا في <strong>UDO GmbH</strong> لنقل العينات الطبية. كما درّست <strong>اللغة العربية</strong> بدوام جزئي في VHS Tübingen، وعملت كمُشرف على الأطفال في مدرسة Eispachs بتوبنغن.</p>
+          <p><i class="bi bi-mortarboard-fill text-primary"></i> بين <strong>2017 و2021</strong> حصلت على<strong>هندسة تشكيل المعادن </strong>من <strong> IHK </strong>.
+
+          <p><i class="bi bi-gear-wide-connected text-warning"></i> بين <strong>2021 و2024</strong>، عملت كـ<strong>مشغّل آلات ومعدات</strong> في شركة Vöhringer GmbH.  كما أكملت تدريبًا مكثفًا بدوام كامل في <strong>تطوير التطبيقات</strong> لدى App Akademie GmbH، حيث اكتسبت خبرة عملية في <strong>Flutter/Dart</strong>، وأساسيات البرمجة، وتصميم واجهات وتجربة المستخدم <strong>(UX/UI)</strong>، ونشر التطبيقات.</p>
+
+          <p><i class="bi bi-tools text-info"></i> <strong>المهارات الرئيسية:</strong> التعليم، أساسيات تكنولوجيا المعلومات، العمل العملي، والتنظيم.</p>
+
+          <p><i class="bi bi-translate text-secondary"></i> <strong>اللغات:</strong> الإنجليزية والعربية بطلاقة، ومعرفة جيدة باللغة الألمانية.</p>
+
+          <p><i class="bi bi-award text-danger"></i> <strong>معلومة ممتعة:</strong> كنت <strong>لاعب تنس طاولة محترفًا</strong> 🏓.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+  <style>
+  @keyframes flipPause {
+    0% {
+      transform: rotateY(0deg);
+    }
+    10% {
+      transform: rotateY(180deg);
+    }
+    90% {
+      transform: rotateY(180deg); /* hold the flip */
+    }
+    100% {
+      transform: rotateY(360deg); /* return to front */
+    }
+  }
+
+  .flip-image {
+    animation: flipPause 10s linear infinite;
+    transform-style: preserve-3d;
+    display: inline-block;
+  }
+  </style>
+
+
+
+  <!-- Services Section -->
+  <section id="services" class="services section" dir="rtl">
+    <style>
+      /* RTL support and underline fix */
+      [dir="rtl"] .section-title {
+        position: relative;
+        text-align: right;
+        padding-right: 20px;
+      }
+
+
+        
+      
+     
+    </style>
+    <section id="services" class="about section" style=" direction: rtl; text-align: right;">
+
+      <!-- Section Title -->
+      <div class="container section-title text-end" data-aos="fade-up">
+        <h2 class="text-end position-relative d-inline-block" style="display: inline-block; padding-bottom: 5px; :">الخدمات</h2>
+    
+      <p>
+        كمصمم مواقع وتطبيقات ومطور شامل ومصمم شعارات، أقدّم مجموعة واسعة من الحلول الإبداعية والتقنية المخصصة لمشروعك. سواء كنت بحاجة إلى موقع ويب رائع، أو تطبيق جوال قوي، أو هوية بصرية مميزة — أساعدك على تحويل رؤيتك إلى واقع من خلال تصميم نظيف ووظائف سلسة وتجربة مستخدم فعّالة.
+      </p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+          <div>
+            <h4 class="title">تصميم وتطوير مواقع مخصصة</h4>
+            <p class="description">
+              تصميم مواقع متجاوبة وصديقة لمحركات البحث باستخدام HTML, CSS, JavaScript أو React/Vue مع دعم خلفي بقاعدة بيانات مثل Firebase أو PHP.
+              <br>مثالي لـ: الشركات الصغيرة، العلامات الشخصية، المحافظ، والشركات الناشئة.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+          <div>
+            <h4 class="title">تصميم وتطوير تطبيقات جوال</h4>
+            <p class="description">
+              بناء تطبيقات متعددة المنصات باستخدام Flutter أو React Native مع دعم قواعد البيانات، الإشعارات، وتكاملات الطرف الثالث.
+              <br>مثالي لـ: التطبيقات الخدمية، الاجتماعية، والمناسبات.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+          <div>
+            <h4 class="title">تصميم واجهات المستخدم وتجربة المستخدم</h4>
+            <p class="description">
+              تصميم احترافي باستخدام Figma أو Adobe XD يشمل نماذج تفاعلية وسير عمل كامل. تحسين تجربة الاستخدام وزيادة التحويل.
+              <br>مثالي لـ: المشاريع التي تحتاج فقط إلى تصميم جذاب ومهني.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+          <div>
+            <h4 class="title">تصميم الشعارات وبناء الهوية البصرية</h4>
+            <p class="description">
+              تصميم شعارات لا تُنسى مع مجموعات هوية متكاملة تشمل الألوان والخطوط والأيقونات ودليل الاستخدام.
+              <br>مثالي لـ: العلامات التجارية الجديدة أو عمليات إعادة التسمية.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+          <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+          <div>
+            <h4 class="title">تصميم وكتابة السير الذاتية</h4>
+            <p class="description">
+              تصميم سيرة ذاتية عصرية ومتوافقة مع أنظمة التوظيف الآلية، مع كتابة المحتوى بشكل احترافي.
+              <br>مثالي لـ: الباحثين عن عمل، الطلاب، المحترفين، والمستقلين.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+          <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+          <div>
+            <h4 class="title">تصميم العروض التقديمية</h4>
+            <p class="description">
+              تصميم عروض جذابة باستخدام PowerPoint أو Canva مع تنظيم المحتوى وسرد القصص.
+              <br>مثالي لـ: العروض التجارية، الأكاديمية، وورش العمل.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <section id="contact" class="contact section light-background" style="direction: rtl; text-align: right;">
+
+      <!-- Section Title -->
+      <section id="services" class="about section" style=" direction: rtl; text-align: right;">
+      <div class="container section-title text-end" data-aos="fade-up">
+        <h2 class="text-end position-relative d-inline-block" style="display: inline-block; padding-bottom: 5px;">تواصل معي</h2>
+        <p>يسعدني تواصلك معي عبر أي وسيلة مناسبة لك</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 align-items-stretch">
+
+          <!-- Contact Information -->
+          <!-- Contact Information -->
+          <div class="col-lg-5" dir="rtl">
+            <div class="info-wrap text-end">
+
+              <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0 fs-3 me-3"></i>
+                <div>
+                  <h3>العنوان</h3>
+                  <p>شارع باولينن ٤٤، ٧٢٠٧٢ توبنغن، ألمانيا</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0 fs-3 me-3"></i>
+                <div>
+                  <h3>اتصل أو أرسل رسالة عبر واتساب</h3>
+                  <p>٤٩١٧٧٢٧١٨٢٧٢+</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0 fs-3 me-3"></i>
+                <div>
+                  <h3>راسلني عبر البريد الإلكتروني</h3>
+                  <p>muhannmmad@gmail.com</p>
+                </div>
+              </div>
+
+              <!-- Google Map embedded directly below the contact info -->
+              <div class="mt-4" data-aos="fade-up" data-aos-delay="500">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.431942901909!2d9.044742115721892!3d48.52113297925308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799f4dfd6b6b28b%3A0x2cd1f5c7ec4c0c53!2sPaulinenstra%C3%9Fe%2044%2C%2072072%20T%C3%BCbingen%2C%20Germany!5e0!3m2!1sen!2sde!4v1716277240573!5m2!1sen!2sde"
+                  frameborder="0"
+                  style="border:0; width: 100%; height: 270px;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-7">
+            <div class="php-email-form text-end" data-aos="fade-up" data-aos-delay="200">
+              <form id="contact-form" action="https://formspree.io/f/xdkgvodv" method="POST" novalidate>
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <label for="name-field" class="form-label">اسمك</label>
+                    <input type="text" name="name" id="name-field" class="form-control text-end" required />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="telephone-field" class="form-label">رقم الهاتف</label>
+                    <input type="text" name="phone" id="telephone-field" class="form-control text-end" required />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="form-label">البريد الإلكتروني</label>
+                    <input type="email" class="form-control text-end" name="email" id="email-field" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="subject-field" class="form-label">الموضوع</label>
+                    <input type="text" class="form-control text-end" name="subject" id="subject-field" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="message-field" class="form-label">الرسالة</label>
+                    <textarea class="form-control text-end" name="message" rows="6" id="message-field" required></textarea>
+                  </div>
+
+                  <input type="hidden" name="_captcha" value="false" />
+
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary px-5">إرسال الرسالة</button>
+                  </div>
+
+                </div>
+              </form>
+
+              <div id="thank-you-message" class="text-center mt-4">
+                <h4 class="text-success">شكرًا! تم إرسال رسالتك بنجاح.</h4>
+                <a href="#" class="text-primary" onclick="resetForm(event)">← إرسال رسالة أخرى</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    const form = document.getElementById('contact-form');
+    const thankYou = document.getElementById('thank-you-message');
+
+    thankYou.style.display = 'none'; // hide on load
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const data = new FormData(form);
+
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+
+      if (response.ok) {
+        form.reset();
+        form.style.display = 'none';
+        thankYou.style.display = 'block';
+      } else {
+        alert('Oops! Something went wrong. Please try again.');
+      }
+    });
+
+    function resetForm(event) {
+      event.preventDefault();
+      thankYou.style.display = 'none';
+      form.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+   
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.querySelector('.header-toggle');
+      const header = document.getElementById('header');
+
+      // Toggle sidebar on hamburger click
+      toggleBtn.addEventListener('click', () => {
+        header.classList.toggle('open');
+      });
+
+      // Close sidebar when a nav link is clicked (on small screens)
+      document.querySelectorAll('#navmenu a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 1199) {
+            header.classList.remove('open');
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

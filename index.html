@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>
+        (function() {
+          const lang = navigator.language || navigator.userLanguage;
+          let target = 'en/'; // default fallback
+
+          if (lang.startsWith('de')) {
+            target = 'de/';
+          } else if (lang.startsWith('ar')) {
+            target = 'ar/';
+          }
+
+          // Redirect relative to current folder
+          window.location.href = target;
+        })();
+      </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <p>Redirecting based on your browser language...</p>
+</body>
+</html>
